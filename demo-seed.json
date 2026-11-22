@@ -1,0 +1,448 @@
+{
+ "user": {
+  "id": "m1",
+  "name": "Alex Martins",
+  "email": "membro@stronggym.pt",
+  "phone": "912 345 678",
+  "goal": "Ganhar massa muscular",
+  "plan": "premium",
+  "role": "member",
+  "memberSince": "2026-02-12"
+ },
+ "plans": [
+  {
+   "id": "essential",
+   "name": "Essential",
+   "price": 24.9,
+   "features": [
+    "Acesso à sala de exercício",
+    "Plano de treino base",
+    "Check-in digital"
+   ]
+  },
+  {
+   "id": "premium",
+   "name": "Premium",
+   "price": 39.9,
+   "features": [
+    "Acesso livre ao ginásio",
+    "Todas as aulas de grupo",
+    "Plano de treino personalizado",
+    "Avaliação física mensal"
+   ]
+  },
+  {
+   "id": "elite",
+   "name": "Elite",
+   "price": 64.9,
+   "features": [
+    "Tudo do plano Premium",
+    "4 sessões de PT por mês",
+    "Acompanhamento nutricional",
+    "Prioridade nas reservas"
+   ]
+  },
+  {
+   "id": "app",
+   "name": "Mensal",
+   "price": 9.9,
+   "appOnly": true,
+   "features": [
+    "Acesso a toda a app StrongGym",
+    "My Plan: plano alimentar personalizado",
+    "My Plan: plano de treino em casa",
+    "Leitor de comida e diário alimentar"
+   ]
+  }
+ ],
+ "classes": [
+  {
+   "id": "c1",
+   "title": "HIIT Power",
+   "category": "HIIT",
+   "trainer": "João Costa",
+   "date": "2026-11-04",
+   "time": "18:30",
+   "duration": 45,
+   "capacity": 20,
+   "booked": 14,
+   "room": "Estúdio 01"
+  },
+  {
+   "id": "c2",
+   "title": "Yoga Flow",
+   "category": "Yoga",
+   "trainer": "Mariana Silva",
+   "date": "2026-11-04",
+   "time": "19:00",
+   "duration": 60,
+   "capacity": 16,
+   "booked": 10,
+   "room": "Estúdio 02"
+  },
+  {
+   "id": "c3",
+   "title": "Cycling Beats",
+   "category": "Cycling",
+   "trainer": "Rui Santos",
+   "date": "2026-11-04",
+   "time": "19:30",
+   "duration": 45,
+   "capacity": 24,
+   "booked": 19,
+   "room": "Estúdio 03"
+  },
+  {
+   "id": "c4",
+   "title": "Functional Club",
+   "category": "Funcional",
+   "trainer": "João Costa",
+   "date": "2026-11-05",
+   "time": "09:00",
+   "duration": 50,
+   "capacity": 18,
+   "booked": 8,
+   "room": "Estúdio 01"
+  },
+  {
+   "id": "c5",
+   "title": "Pilates Core",
+   "category": "Pilates",
+   "trainer": "Mariana Silva",
+   "date": "2026-11-05",
+   "time": "17:30",
+   "duration": 50,
+   "capacity": 16,
+   "booked": 12,
+   "room": "Estúdio 02"
+  },
+  {
+   "id": "c6",
+   "title": "HIIT Power",
+   "category": "HIIT",
+   "trainer": "João Costa",
+   "date": "2026-11-06",
+   "time": "18:30",
+   "duration": 45,
+   "capacity": 20,
+   "booked": 12,
+   "room": "Estúdio 01"
+  },
+  {
+   "id": "c7",
+   "title": "Yoga Sunrise",
+   "category": "Yoga",
+   "trainer": "Mariana Silva",
+   "date": "2026-11-07",
+   "time": "09:00",
+   "duration": 60,
+   "capacity": 16,
+   "booked": 6,
+   "room": "Estúdio 02"
+  }
+ ],
+ "bookings": [],
+ "visits": [
+  {
+   "id": "v1",
+   "date": "2026-11-02",
+   "entered": "2026-11-02T17:30:00",
+   "exited": "2026-11-02T18:40:00"
+  },
+  {
+   "id": "v2",
+   "date": "2026-11-03",
+   "entered": "2026-11-03T18:00:00",
+   "exited": "2026-11-03T19:15:00"
+  }
+ ],
+ "workout": {
+  "id": "w1",
+  "title": "Treino A · Peito e tríceps",
+  "subtitle": "Hipertrofia · Intermédio · 55 min",
+  "trainer": "João Costa",
+  "exercises": [
+   {
+    "name": "Supino com barra",
+    "sets": 4,
+    "reps": "10–12",
+    "rest": "90 s"
+   },
+   {
+    "name": "Supino inclinado com halteres",
+    "sets": 3,
+    "reps": "12",
+    "rest": "60 s"
+   },
+   {
+    "name": "Aberturas na polia",
+    "sets": 3,
+    "reps": "12–15",
+    "rest": "60 s"
+   },
+   {
+    "name": "Tríceps na polia",
+    "sets": 3,
+    "reps": "12",
+    "rest": "60 s"
+   },
+   {
+    "name": "Prancha abdominal",
+    "sets": 3,
+    "reps": "45 s",
+    "rest": "45 s"
+   }
+  ],
+  "completedDates": [
+   "2026-11-02"
+  ]
+ },
+ "progress": [
+  {
+   "id": "p1",
+   "date": "2026-06-04",
+   "weight": 78.2,
+   "bodyFat": 22.4,
+   "waist": 87
+  },
+  {
+   "id": "p2",
+   "date": "2026-07-04",
+   "weight": 77.5,
+   "bodyFat": 21.8,
+   "waist": 86
+  },
+  {
+   "id": "p3",
+   "date": "2026-08-04",
+   "weight": 76.8,
+   "bodyFat": 21.1,
+   "waist": 85
+  },
+  {
+   "id": "p4",
+   "date": "2026-09-04",
+   "weight": 76.3,
+   "bodyFat": 20.5,
+   "waist": 84
+  },
+  {
+   "id": "p5",
+   "date": "2026-10-04",
+   "weight": 75.6,
+   "bodyFat": 19.8,
+   "waist": 83
+  },
+  {
+   "id": "p6",
+   "date": "2026-11-01",
+   "weight": 75.1,
+   "bodyFat": 19.2,
+   "waist": 82
+  }
+ ],
+ "products": [
+  {
+   "id": "pr1",
+   "name": "T-shirt Essential",
+   "category": "Vestuário",
+   "price": 24.9,
+   "stock": 24,
+   "icon": "shirt"
+  },
+  {
+   "id": "pr2",
+   "name": "Shaker StrongGym",
+   "category": "Acessórios",
+   "price": 12.9,
+   "stock": 40,
+   "icon": "bottle"
+  },
+  {
+   "id": "pr3",
+   "name": "Whey Protein · 900 g",
+   "category": "Nutrição",
+   "price": 32.9,
+   "stock": 18,
+   "icon": "supplement"
+  },
+  {
+   "id": "pr4",
+   "name": "Saco Training Club",
+   "category": "Acessórios",
+   "price": 29.9,
+   "stock": 12,
+   "icon": "bag"
+  }
+ ],
+ "orders": [],
+ "challenges": [
+  {
+   "id": "ch1",
+   "title": "Consistência é tudo",
+   "description": "Faz 12 visitas ao ginásio este mês. Pequenos passos, grandes resultados.",
+   "target": 12,
+   "unit": "visitas",
+   "points": 300,
+   "joined": true
+  },
+  {
+   "id": "ch2",
+   "title": "Mais forte, todos os dias",
+   "description": "Conclui 8 treinos este mês e supera a tua melhor versão.",
+   "target": 8,
+   "unit": "treinos",
+   "points": 200,
+   "joined": false
+  }
+ ],
+ "notices": [
+  {
+   "id": "n1",
+   "title": "O teu próximo nível começa aqui",
+   "body": "O teu plano de treino foi atualizado pelo João. Está na hora de dar o próximo passo!",
+   "date": "2026-11-04",
+   "read": false
+  },
+  {
+   "id": "n2",
+   "title": "Novembro com mais energia",
+   "body": "Novas aulas de HIIT e Cycling disponíveis na agenda. Reserva o teu lugar.",
+   "date": "2026-11-03",
+   "read": false
+  }
+ ],
+ "tickets": [],
+ "occupancy": {
+  "current": 42,
+  "capacity": 100
+ },
+ "stats": {
+  "weeklyVisits": 2,
+  "weeklyGoal": 4,
+  "points": 50,
+  "streak": 2
+ },
+ "admin": {
+  "members": [
+   {
+    "id": "m1",
+    "name": "Alex Martins",
+    "email": "membro@stronggym.pt",
+    "plan": "premium",
+    "role": "member"
+   },
+   {
+    "id": "m2",
+    "name": "Beatriz Sousa",
+    "email": "beatriz@example.com",
+    "plan": "elite",
+    "role": "member"
+   },
+   {
+    "id": "m3",
+    "name": "Diogo Ferreira",
+    "email": "diogo@example.com",
+    "plan": "essential",
+    "role": "member"
+   }
+  ],
+  "leads": [
+   {
+    "id": "l1",
+    "name": "Inês Almeida",
+    "email": "ines@example.com",
+    "interest": "Aulas de grupo",
+    "stage": "Novo",
+    "date": "2026-11-04"
+   },
+   {
+    "id": "l2",
+    "name": "Pedro Nunes",
+    "email": "pedro@example.com",
+    "interest": "Personal training",
+    "stage": "Contactado",
+    "date": "2026-11-03"
+   },
+   {
+    "id": "l3",
+    "name": "Sofia Ribeiro",
+    "email": "sofia@example.com",
+    "interest": "Plano Premium",
+    "stage": "Visita marcada",
+    "date": "2026-11-02"
+   }
+  ],
+  "staff": [
+   {
+    "id": "s1",
+    "name": "João Costa",
+    "role": "Personal Trainer",
+    "email": "joao@example.com"
+   },
+   {
+    "id": "s2",
+    "name": "Mariana Silva",
+    "role": "Instrutora",
+    "email": "mariana@example.com"
+   },
+   {
+    "id": "s3",
+    "name": "Rui Santos",
+    "role": "Instrutor",
+    "email": "rui@example.com"
+   }
+  ],
+  "shifts": [
+   {
+    "id": "sh1",
+    "staffId": "s1",
+    "date": "2026-11-04",
+    "start": "07:00",
+    "end": "15:00"
+   },
+   {
+    "id": "sh2",
+    "staffId": "s2",
+    "date": "2026-11-04",
+    "start": "14:00",
+    "end": "22:00"
+   },
+   {
+    "id": "sh3",
+    "staffId": "s3",
+    "date": "2026-11-05",
+    "start": "08:00",
+    "end": "16:00"
+   }
+  ],
+  "tickets": [],
+  "revenue": [
+   {
+    "month": "Jun",
+    "value": 7240
+   },
+   {
+    "month": "Jul",
+    "value": 6810
+   },
+   {
+    "month": "Ago",
+    "value": 6430
+   },
+   {
+    "month": "Set",
+    "value": 8350
+   },
+   {
+    "month": "Out",
+    "value": 9120
+   },
+   {
+    "month": "Nov",
+    "value": 9650
+   }
+  ],
+  "visits": []
+ }
+}

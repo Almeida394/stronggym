@@ -1,0 +1,23 @@
+{
+  "name": "StrongGym",
+  "short_name": "StrongGym",
+  "description": "O teu treino, a tua evolução e o teu ginásio num só lugar.",
+  "id": "./",
+  "start_url": "./#dashboard",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "pt-PT",
+  "categories": ["health", "fitness", "lifestyle"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "My Plan", "url": "./#my_plan", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Leitor de comida", "short_name": "Comida", "url": "./#food", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
